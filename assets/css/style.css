@@ -1,0 +1,30 @@
+h1 {
+    background-color: #4aaaa5;
+    color: white;
+    margin: auto;
+    width: 280px;
+    padding: 35px;
+    text-align: center;
+    float: left;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.hFont {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.topnav {
+    float:right;
+   
+}
+
+img {
+    float: left;
+}
+
+.aboutMe {
+    border: solid;
+}
