@@ -55,7 +55,13 @@ img {
 
 .footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    background-color: rgb(68, 68, 68);
+    color: rgb(163, 163, 163);
+    margin-top: 20px;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-width: 10px;
 }
 
 p {
