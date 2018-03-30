@@ -24,6 +24,7 @@ h1 {
     text-align: center;
     float: left;
     display: inline; 
+    margin-left: 60px;
 }
 
 h2 {
@@ -47,13 +48,14 @@ li a {
     display: block;
     color: rgb(163, 163, 163);
     text-align: center;
-    padding: 14px 16px;
+    padding: 25px 12px;
     text-decoration: none;
     font-size: 17px;
+    margin-right: 60px;
 }
 
 li a:hover {
-    background-color: rgb(68, 68, 68);
+    background-color: rgb(102, 101, 101);
 }
 
 .portrait {
@@ -62,12 +64,14 @@ li a:hover {
 }
 
 .aboutMe {
+    margin-top: 30px;
     border: solid;
     border-width: 2px;
     border-color: rgb(68, 68, 68);
     width: 960px;
     padding: 20px;
     background-color: #ffffff;
+    align-self: center;
 }
 
 .content {
