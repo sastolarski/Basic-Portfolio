@@ -1,3 +1,20 @@
+html {
+    height: 100%;
+}
+
+
+body {
+    background-image: url(/Users/stevenstolarski/Desktop/code/Basic-Portfolio/assets/images/dust_scratches/dust_scratches.png);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hFont {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 h1 {
     background-color: #4aaaa5;
     color: white;
@@ -9,20 +26,16 @@ h1 {
     display: inline; 
 }
 
-body {
-    background-color: #ffffff;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-.hFont {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+h2 {
+    color: #4aaaa5;
 }
 
 .topnav {
-    float:right;
-    list-style-type: none;
-    margin-right: 150px;
-    padding: 0;
+    overflow: hidden;
+    background-color:rgb(68, 68, 68);
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 li {
@@ -30,28 +43,36 @@ li {
 }
 
 li a {
-    display: inline-block;
-    color: grey;
+    float: right;
+    display: block;
+    color: rgb(163, 163, 163);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-right: 1px solid rgb(163, 163, 163);
+    font-size: 17px;
 }
 
 li a:hover {
     background-color: rgb(68, 68, 68);
 }
 
-img {
+.portrait {
     float: left;
     padding: 20px;
 }
 
 .aboutMe {
     border: solid;
+    border-width: 2px;
+    border-color: rgb(68, 68, 68);
     width: 960px;
     padding: 20px;
+    background-color: #ffffff;
 }
+
+.content {
+    flex: 1 0 auto;
+  }
 
 .footer {
     text-align: center;
@@ -62,8 +83,12 @@ img {
     border-top-style: solid;
     border-color: #4aaaa5;
     border-width: 10px;
+    height: 50px;
+    flex-shrink: 0;
 }
 
 p {
     line-height: 175%;
 }
+
+
