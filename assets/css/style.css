@@ -63,7 +63,7 @@ li a:hover {
     padding: 20px;
 }
 
-.aboutMe {
+section {
     margin-top: 30px;
     border: solid;
     border-width: 2px;
@@ -77,6 +77,18 @@ li a:hover {
 .content {
     flex: 1 0 auto;
   }
+
+.contactInfo {
+    margin-top: 30px;
+}
+
+.portfolioInfo {
+    margin-top: 30px;
+}
+
+.aboutMe {
+    align-self: center;
+}
 
 .footer {
     text-align: center;
@@ -95,4 +107,45 @@ p {
     line-height: 175%;
 }
 
+.nameInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: .5px solid rgb(163, 163, 163);
+    box-sizing: border-box;
+}
 
+.emailInput {
+    margin-top: 30px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: .5px solid rgb(163, 163, 163);
+    box-sizing: border-box;
+}
+
+.messageInput {
+    margin-top: 30px;
+    margin-bottom:30px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: .5px solid rgb(163, 163, 163);
+    box-sizing: border-box;
+}
+
+.submit {
+    width: 25%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #337e7a
+}
