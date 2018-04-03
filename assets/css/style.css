@@ -126,6 +126,11 @@ input[type=email]:focus {
     border: 5px solid rgb(68, 68, 68);
 }
 
+input {
+    font-size: 16px;
+    text-align: left;
+}
+
 .nameInput {
     width: 100%;
     padding: 12px 20px;
@@ -151,6 +156,7 @@ input[type=email]:focus {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
+    height: 150px;
     display: inline-block;
     border: .5px solid rgb(163, 163, 163);
     box-sizing: border-box;
