@@ -57,6 +57,7 @@ hr {
 
 li {
     display: inline;
+    
 }
 
 li a {
@@ -69,6 +70,7 @@ li a {
     font-size: 18px;
     margin-right: 50px;
     margin-top: 16px;
+    
 }
 
 li a:hover {
@@ -183,4 +185,33 @@ input {
 
 .submit:hover {
     background-color: #337e7a
+}
+
+.portfolioImages {
+    margin: 30px;
+}
+
+.project1 {
+    margin: 30px;
+
+}
+
+.project2 {
+    margin: 30px;
+}
+
+.project3 {
+    margin: 30px;
+}
+
+.project4 {
+    margin: 30px;
+}
+
+.project5 {
+    margin: 30px;
+}
+
+.project6 {
+    margin: 30px;
 }
