@@ -287,3 +287,15 @@ input {
     height: 200px;
     width: 200px;
   }
+
+  .link1 {
+      color: #4aaaa5;
+      text-decoration: none;
+      border: none;
+      padding: 2px;
+  }
+
+  .link1:hover {
+      background-color: #4aaaa5;
+      color: white;
+  }
