@@ -292,6 +292,7 @@ input {
       color: #4aaaa5;
       text-decoration: none;
       border: none;
+      border-radius: 5px;
       padding: 2px;
   }
 
