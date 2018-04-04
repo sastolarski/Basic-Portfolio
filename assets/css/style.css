@@ -87,7 +87,7 @@ section {
     border: solid;
     border-width: 2px;
     border-color: rgb(68, 68, 68);
-    max-width: 960px;
+    width: 960px;
     padding: 20px;
     background-color: #ffffff;
     align-self: center;
