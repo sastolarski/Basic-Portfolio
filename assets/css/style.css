@@ -85,7 +85,7 @@ li a:hover {
 }
 
 section {
-    margin: 30px;
+    /* margin: 30px; */
     border: 2px solid rgb(68, 68, 68);
     width: 960px;
     padding: 20px;
@@ -99,15 +99,16 @@ section {
   }
 
 .contactInfo {
-    margin-top: 30px;
+    margin: 100px;
 }
 
 .portfolioInfo {
-    margin-top: 30px;
+    margin: 100px;
 }
 
 .aboutMe {
     align-self: center;
+    margin: 100px;
     
 }
 
@@ -133,11 +134,15 @@ p {
 }
 
 input[type=text]:focus {
-    border: 5px solid rgb(68, 68, 68);
+    border: 3px solid rgb(68, 68, 68);
 }
 
 input[type=email]:focus {
-    border: 5px solid rgb(68, 68, 68);
+    border: 3px solid rgb(68, 68, 68);
+}
+
+textarea:focus {
+    border: 3px solid rgb(68, 68, 68);
 }
 
 input {
