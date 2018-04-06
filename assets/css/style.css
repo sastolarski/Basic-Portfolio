@@ -81,6 +81,7 @@ li a:hover {
 .portrait {
     float: left;
     padding: 20px;
+    height: 400px;
 }
 
 section {
