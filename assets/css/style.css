@@ -146,6 +146,11 @@ input {
     
 }
 
+textarea {
+    font-size: 16px;
+    text-align: left;
+}
+
 .nameInput {
     width: 100%;
     padding: 12px 20px;
